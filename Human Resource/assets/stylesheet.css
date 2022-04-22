@@ -1,0 +1,13 @@
+.partLeft {position:fixed;left:10px;height:78%;background:linear-gradient(pink,aqua);
+			width:19%;border-color:pink;border-style:ridge;box-shadow:10px 10px 0px aqua;border-radius:10px;}
+			
+.home {position:absolute;top:120px;left:300px;width:77%;height:80%;background-color:white;border-style:ridge;border-color:pink;}
+
+html {background:linear-gradient(white,pink);background-position:cover;background-repeat:no-repeat;background-attachment:fixed;}
+
+.dom {position:absolute;top:120px;left:300px;width:77%;height:85%;background-color:white;border-style:ridge;border-color:pink;}
+
+.smallright {position:absolute;right:10px;height:78%;background:linear-gradient(pink,aqua);
+			width:25%;border-color:pink;border-style:ridge;border-radius:20px;top:50px;}
+			
+.dtable {position:absolute;top:120px;left:300px;width:77%;height:80%;background-color:white;border-style:ridge;border-color:pink;}
