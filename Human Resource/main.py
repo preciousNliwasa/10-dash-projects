@@ -341,41 +341,44 @@ def stdsl(n_clicks,category,feature):
     
     return 'Std : ' + str(np.std(filtered.last_evaluation))
 
-@app.callback(Output('tstat','children'),[Input('but2','n_clicks')],[State('category','value'),State('feature','value')])
+@app.callback([Output('tstat','children'),Output('pvalue','children')],[Input('but2','n_clicks')],[State('category','value'),State('feature','value')])
 def tstat(n_clicks,category,feature):
     
     filtered = hrdata.loc[hrdata[category] == feature]
     
-    tstat,_ = ttest_ind(filtered.satisfaction_level,filtered.last_evaluation)
+    tstat,pvalue = ttest_ind(filtered.satisfaction_level,filtered.last_evaluation)
     
-    return 't statistic : ' + str(tstat)
+    return 't statistic : ' + str(tstat),'p-value : ' + str(pvalue)
 
-@app.callback(Output('pvalue','children'),[Input('but2','n_clicks')],[State('category','value'),State('feature','value')])
-def pvalue(n_clicks,category,feature):
+#@app.callback(Output('pvalue','children'),[Input('but2','n_clicks')],[State('category','value'),State('feature','value')])
+#def pvalue(n_clicks,category,feature):
     
-    filtered = hrdata.loc[hrdata[category] == feature]
+#    filtered = hrdata.loc[hrdata[category] == feature]
     
-    _,pvalue = ttest_ind(filtered.satisfaction_level,filtered.last_evaluation)
+#    _,pvalue = ttest_ind(filtered.satisfaction_level,filtered.last_evaluation)
     
-    return 'p-value : ' + str(pvalue)
+#    return 'p-value : ' + str(pvalue)
 
-@app.callback(Output('modelscore','children'),[Input('but3','n_clicks')],[State('neighbors','value')])
-def modelScore(n_clicks,neighbors):
+@app.callback([Output('modelscore','children'),Output('salaryType','children')],[Input('but3','n_clicks'),Input('but4','n_clicks')],[State('neighbors','value'),State('satisfaction_level','value'),State('last_evaluation','value'),State('number_project','value'),State('average_montly_hours','value'),State('time_spend_company','value'),State('Work_accident','value'),State('left','value'),State('promotion_last_5years','value'),State('mldrop','value')])
+def modelScorepred(n_clicks,n_clicks2,neighbors,sl,le,np,avg,time,acci,left,promo,drop):
     
     model = KNeighborsClassifier(n_neighbors = int(neighbors),metric = 'euclidean')
     
     model.fit(X_train,y_train)
     
-    return str(model.score(X_test,y_test))
+    score = model.score(X_test,y_test)
+    prediction = model.predict([[float(sl),float(le),float(np),float(avg),float(time),float(acci),float(left),float(promo),sales_dict[drop]]])
 
-@app.callback(Output('salaryType','children'),[Input('but4','n_clicks')],[State('neighbors','value'),State('satisfaction_level','value'),State('last_evaluation','value'),State('number_project','value'),State('average_montly_hours','value'),State('time_spend_company','value'),State('Work_accident','value'),State('left','value'),State('promotion_last_5years','value'),State('mldrop','value')])
-def salaryTY(n_clicks,neighbor,sl,le,np,avg,time,acci,left,promo,drop):
+    return str(score),str(prediction)
     
-    model = KNeighborsClassifier(n_neighbors = int(neighbor),metric = 'euclidean')
+#@app.callback(Output('salaryType','children'),[Input('but4','n_clicks')],[State('neighbors','value'),State('satisfaction_level','value'),State('last_evaluation','value'),State('number_project','value'),State('average_montly_hours','value'),State('time_spend_company','value'),State('Work_accident','value'),State('left','value'),State('promotion_last_5years','value'),State('mldrop','value')])
+#def salaryTY(n_clicks,neighbor,sl,le,np,avg,time,acci,left,promo,drop):
     
-    model.fit(X_train,y_train)
+#    model = KNeighborsClassifier(n_neighbors = int(neighbor),metric = 'euclidean')
     
-    return str(model.predict([[float(sl),float(le),float(np),float(avg),float(time),float(acci),float(left),float(promo),sales_dict[drop]]]))
+#    model.fit(X_train,y_train)
+    
+#    return model.predict([[float(sl),float(le),float(np),float(avg),float(time),float(acci),float(left),float(promo),sales_dict[drop]]])
     
 if __name__ == '__main__':
     app.run_server(debug = True)
