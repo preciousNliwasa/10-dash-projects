@@ -268,7 +268,7 @@ def content(pathname):
 def dataTable(n_clicks,from_c,to_c):
     
     try:
-        url = 'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency={}&to_currency={}&apikey=S0MBQCG3VTH0UAJK'.format(from_c,to_c)
+        url = 'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency={}&to_currency={}&apikey=key'.format(from_c,to_c)
         r = requests.get(url)
         data = r.json()
     
@@ -294,7 +294,7 @@ def dataTable(n_clicks,from_c,to_c):
     
 def intratable(company,outputsize):
     
-    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={}&outputsize={}&interval=5min&apikey=S0MBQCG3VTH0UAJK'.format(company,outputsize)
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={}&outputsize={}&interval=5min&apikey=key'.format(company,outputsize)
     r = requests.get(url)
     data = r.json()
     
@@ -469,7 +469,7 @@ def graph_si(n_clicks,company,outputsize):
 @app.callback(Output('searchResults','options'),[Input('but','n_clicks')],[State('search','value')])
 def searchResults(n_clicks,value):
     
-    url = 'https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={}&apikey=S0MBQCG3VTH0UAJK'.format(value)
+    url = 'https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={}&apikey=key'.format(value)
     r = requests.get(url)
     data = r.json()
     
