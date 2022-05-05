@@ -1,0 +1,5 @@
+ul {list-style-type:none;padding:0px;margin:0px;overflow:hidden;background-color:#444444;height:60px;}
+			
+li a {color:white;float:left;display:block;padding:10px 15px;text-align:center;text-decoration:none;border-right:1px solid black;min-width:60px;height:60px;padding-top:20px;}
+li a:hover {background-color:black;}
+
