@@ -1,0 +1,475 @@
+car name,speed,range,continent,cars sold
+019-SUV,203,429,africa,1662
+036-CAR01,190,442,africa,273
+037-CAR02,249,433,africa,1573
+aodi-a6,190,405,africa,541
+aodi-Q7-SUV,175,383,africa,1248
+baojun-310-2017,184,412,africa,1166
+baojun-510,235,407,africa,434
+baoma-330,240,466,africa,140
+baoma-530,240,380,africa,1245
+baoma-X5,235,452,africa,1799
+baoshijie-kayan,195,351,africa,1590
+baoshijie-paoche,161,475,africa,719
+beiqi-huansu-H3,217,459,africa,1732
+benchi-GLK-300,170,400,africa,1145
+benchi-ML500,227,400,africa,997
+benchi-SUR,244,384,africa,1231
+bentian-fengfan,153,361,africa,1031
+biaozhi-3008,167,480,africa,1863
+biaozhi-408,220,365,africa,1148
+biaozhi-508,221,426,africa,305
+biaozhi-liangxiang,221,438,africa,1443
+bieke-kaiyue,151,485,africa,1798
+bieke-yinglang-XT,200,419,africa,409
+bieke,219,413,africa,535
+biyadi-2x-F0,233,418,africa,1177
+biyadi-F3,209,407,africa,1571
+biyadi-qin,182,363,africa,682
+biyadi-tang,218,461,africa,434
+changan-CS35-2012,202,440,africa,1297
+changan-cs5,235,369,africa,1234
+changanbenben,198,383,africa,938
+changcheng-H6-2016,180,474,africa,829
+dazhong-SUV,215,395,africa,1077
+dazhong,171,383,africa,1547
+dazhongmaiteng,213,416,africa,1473
+dihao-EV,189,441,africa,122
+dongfeng-DS5,237,443,africa,1820
+dongfeng-fengguang-S560,221,443,africa,578
+dongfeng-fengxing-SX6,209,447,africa,417
+dongfeng-xuetielong-C6,180,366,africa,1056
+dongfeng-yulong-naruijie,234,364,africa,852
+dongnan-V3-lingyue-2011,155,362,africa,900
+feiyate,169,412,africa,1347
+fengtian-liangxiang,189,428,africa,1247
+fengtian-MPV,176,360,africa,475
+fengtian-puladuo-06,189,412,africa,979
+fengtian-SUV-gai,223,375,africa,1906
+fengtian-weichi-2006,183,409,africa,975
+fute,188,450,africa,1963
+guangqi-chuanqi-GS4-2015,191,454,africa,769
+haima-3,206,437,africa,1084
+jianghuai-ruifeng-S3,235,373,africa,1655
+jili-boyue,173,418,africa,1843
+jilixiongmao-2015,217,377,africa,1388
+jipu-3,200,447,africa,184
+kaidilake-CTS,153,433,africa,1974
+leikesasi,227,411,africa,1251
+lingmu-aotuo-2009,159,401,africa,681
+lingmu-swift,209,368,africa,837
+lingmu-SX4-2012,205,476,africa,1427
+linken-SUV,201,449,africa,793
+lufeng-X8,198,353,africa,1380
+mazida-6-2015,183,381,africa,657
+MG-GT-2015,222,379,africa,1330
+oubao,242,444,africa,1847
+qirui-ruihu,238,356,africa,1434
+qiya,229,465,africa,763
+rongwei-750,176,413,africa,134
+rongwei-RX5,150,450,africa,204
+sanling-oulande,175,444,africa,1748
+sikeda-jingrui,186,409,africa,950
+sikeda-SUV,152,456,africa,873
+Skoda_Fabia-2011,178,473,africa,142
+supai-2016,194,445,africa,1634
+xiandai-i25-2016,180,354,africa,683
+xiandai-suonata,164,391,africa,1114
+yingfeinidi-qx80,209,377,africa,1171
+yingfeinidi-SUV,203,467,africa,1847
+yiqi-benteng-b50,228,425,africa,1372
+019-SUV,203,429,europe,37529
+036-CAR01,190,442,europe,97399
+037-CAR02,249,433,europe,29717
+aodi-a6,190,405,europe,10542
+aodi-Q7-SUV,175,383,europe,91678
+baojun-310-2017,184,412,europe,21710
+baojun-510,235,407,europe,41970
+baoma-330,240,466,europe,36068
+baoma-530,240,380,europe,69984
+baoma-X5,235,452,europe,69168
+baoshijie-kayan,195,351,europe,21562
+baoshijie-paoche,161,475,europe,9398
+beiqi-huansu-H3,217,459,europe,21683
+benchi-GLK-300,170,400,europe,49094
+benchi-ML500,227,400,europe,70324
+benchi-SUR,244,384,europe,39534
+bentian-fengfan,153,361,europe,21186
+biaozhi-3008,167,480,europe,75640
+biaozhi-408,220,365,europe,47297
+biaozhi-508,221,426,europe,35061
+biaozhi-liangxiang,221,438,europe,33638
+bieke-kaiyue,151,485,europe,47391
+bieke-yinglang-XT,200,419,europe,78310
+bieke,219,413,europe,28133
+biyadi-2x-F0,233,418,europe,19825
+biyadi-F3,209,407,europe,74735
+biyadi-qin,182,363,europe,41566
+biyadi-tang,218,461,europe,77363
+changan-CS35-2012,202,440,europe,40688
+changan-cs5,235,369,europe,40529
+changanbenben,198,383,europe,99001
+changcheng-H6-2016,180,474,europe,33318
+dazhong-SUV,215,395,europe,60442
+dazhong,171,383,europe,2552
+dazhongmaiteng,213,416,europe,30044
+dihao-EV,189,441,europe,19811
+dongfeng-DS5,237,443,europe,25869
+dongfeng-fengguang-S560,221,443,europe,2749
+dongfeng-fengxing-SX6,209,447,europe,40904
+dongfeng-xuetielong-C6,180,366,europe,15833
+dongfeng-yulong-naruijie,234,364,europe,70930
+dongnan-V3-lingyue-2011,155,362,europe,73774
+feiyate,169,412,europe,78208
+fengtian-liangxiang,189,428,europe,72224
+fengtian-MPV,176,360,europe,68661
+fengtian-puladuo-06,189,412,europe,49150
+fengtian-SUV-gai,223,375,europe,62145
+fengtian-weichi-2006,183,409,europe,18214
+fute,188,450,europe,42819
+guangqi-chuanqi-GS4-2015,191,454,europe,32345
+haima-3,206,437,europe,68065
+jianghuai-ruifeng-S3,235,373,europe,89318
+jili-boyue,173,418,europe,53920
+jilixiongmao-2015,217,377,europe,56193
+jipu-3,200,447,europe,40575
+kaidilake-CTS,153,433,europe,43040
+leikesasi,227,411,europe,85954
+lingmu-aotuo-2009,159,401,europe,84026
+lingmu-swift,209,368,europe,49686
+lingmu-SX4-2012,205,476,europe,23038
+linken-SUV,201,449,europe,74355
+lufeng-X8,198,353,europe,77788
+mazida-6-2015,183,381,europe,71808
+MG-GT-2015,222,379,europe,23675
+oubao,242,444,europe,92854
+qirui-ruihu,238,356,europe,64477
+qiya,229,465,europe,44929
+rongwei-750,176,413,europe,13849
+rongwei-RX5,150,450,europe,2132
+sanling-oulande,175,444,europe,89353
+sikeda-jingrui,186,409,europe,57690
+sikeda-SUV,152,456,europe,67437
+Skoda_Fabia-2011,178,473,europe,2141
+supai-2016,194,445,europe,95513
+xiandai-i25-2016,180,354,europe,33007
+xiandai-suonata,164,391,europe,38011
+yingfeinidi-qx80,209,377,europe,61397
+yingfeinidi-SUV,203,467,europe,19154
+yiqi-benteng-b50,228,425,europe,78551
+019-SUV,203,429,north america,34617
+036-CAR01,190,442,north america,12323
+037-CAR02,249,433,north america,15078
+aodi-a6,190,405,north america,35584
+aodi-Q7-SUV,175,383,north america,39019
+baojun-310-2017,184,412,north america,4810
+baojun-510,235,407,north america,30153
+baoma-330,240,466,north america,48564
+baoma-530,240,380,north america,20428
+baoma-X5,235,452,north america,42584
+baoshijie-kayan,195,351,north america,7948
+baoshijie-paoche,161,475,north america,57110
+beiqi-huansu-H3,217,459,north america,36265
+benchi-GLK-300,170,400,north america,65856
+benchi-ML500,227,400,north america,66317
+benchi-SUR,244,384,north america,64014
+bentian-fengfan,153,361,north america,2846
+biaozhi-3008,167,480,north america,40879
+biaozhi-408,220,365,north america,45145
+biaozhi-508,221,426,north america,13676
+biaozhi-liangxiang,221,438,north america,40509
+bieke-kaiyue,151,485,north america,32742
+bieke-yinglang-XT,200,419,north america,51532
+bieke,219,413,north america,21513
+biyadi-2x-F0,233,418,north america,22666
+biyadi-F3,209,407,north america,45371
+biyadi-qin,182,363,north america,18082
+biyadi-tang,218,461,north america,9147
+changan-CS35-2012,202,440,north america,1892
+changan-cs5,235,369,north america,49988
+changanbenben,198,383,north america,28485
+changcheng-H6-2016,180,474,north america,37064
+dazhong-SUV,215,395,north america,4929
+dazhong,171,383,north america,9669
+dazhongmaiteng,213,416,north america,36179
+dihao-EV,189,441,north america,64281
+dongfeng-DS5,237,443,north america,62295
+dongfeng-fengguang-S560,221,443,north america,45755
+dongfeng-fengxing-SX6,209,447,north america,31797
+dongfeng-xuetielong-C6,180,366,north america,25579
+dongfeng-yulong-naruijie,234,364,north america,24550
+dongnan-V3-lingyue-2011,155,362,north america,25556
+feiyate,169,412,north america,9587
+fengtian-liangxiang,189,428,north america,52130
+fengtian-MPV,176,360,north america,29037
+fengtian-puladuo-06,189,412,north america,27256
+fengtian-SUV-gai,223,375,north america,31423
+fengtian-weichi-2006,183,409,north america,31060
+fute,188,450,north america,31641
+guangqi-chuanqi-GS4-2015,191,454,north america,21214
+haima-3,206,437,north america,40811
+jianghuai-ruifeng-S3,235,373,north america,4711
+jili-boyue,173,418,north america,33997
+jilixiongmao-2015,217,377,north america,5645
+jipu-3,200,447,north america,52146
+kaidilake-CTS,153,433,north america,53387
+leikesasi,227,411,north america,27712
+lingmu-aotuo-2009,159,401,north america,64014
+lingmu-swift,209,368,north america,3097
+lingmu-SX4-2012,205,476,north america,48279
+linken-SUV,201,449,north america,12363
+lufeng-X8,198,353,north america,4785
+mazida-6-2015,183,381,north america,51297
+MG-GT-2015,222,379,north america,65357
+oubao,242,444,north america,48876
+qirui-ruihu,238,356,north america,15036
+qiya,229,465,north america,20300
+rongwei-750,176,413,north america,20853
+rongwei-RX5,150,450,north america,47519
+sanling-oulande,175,444,north america,59993
+sikeda-jingrui,186,409,north america,17015
+sikeda-SUV,152,456,north america,50571
+Skoda_Fabia-2011,178,473,north america,44830
+supai-2016,194,445,north america,52444
+xiandai-i25-2016,180,354,north america,49396
+xiandai-suonata,164,391,north america,64453
+yingfeinidi-qx80,209,377,north america,24278
+yingfeinidi-SUV,203,467,north america,46337
+yiqi-benteng-b50,228,425,north america,62554
+019-SUV,203,429,south america,6698
+036-CAR01,190,442,south america,34236
+037-CAR02,249,433,south america,28059
+aodi-a6,190,405,south america,48723
+aodi-Q7-SUV,175,383,south america,42604
+baojun-310-2017,184,412,south america,10247
+baojun-510,235,407,south america,24962
+baoma-330,240,466,south america,43277
+baoma-530,240,380,south america,42636
+baoma-X5,235,452,south america,10073
+baoshijie-kayan,195,351,south america,42259
+baoshijie-paoche,161,475,south america,25814
+beiqi-huansu-H3,217,459,south america,9153
+benchi-GLK-300,170,400,south america,19892
+benchi-ML500,227,400,south america,24949
+benchi-SUR,244,384,south america,46165
+bentian-fengfan,153,361,south america,30699
+biaozhi-3008,167,480,south america,17924
+biaozhi-408,220,365,south america,11891
+biaozhi-508,221,426,south america,17868
+biaozhi-liangxiang,221,438,south america,48406
+bieke-kaiyue,151,485,south america,13442
+bieke-yinglang-XT,200,419,south america,36219
+bieke,219,413,south america,21973
+biyadi-2x-F0,233,418,south america,33064
+biyadi-F3,209,407,south america,19960
+biyadi-qin,182,363,south america,24447
+biyadi-tang,218,461,south america,43744
+changan-CS35-2012,202,440,south america,15462
+changan-cs5,235,369,south america,32605
+changanbenben,198,383,south america,49554
+changcheng-H6-2016,180,474,south america,10980
+dazhong-SUV,215,395,south america,29462
+dazhong,171,383,south america,33776
+dazhongmaiteng,213,416,south america,34723
+dihao-EV,189,441,south america,19114
+dongfeng-DS5,237,443,south america,8988
+dongfeng-fengguang-S560,221,443,south america,20506
+dongfeng-fengxing-SX6,209,447,south america,9564
+dongfeng-xuetielong-C6,180,366,south america,32774
+dongfeng-yulong-naruijie,234,364,south america,26704
+dongnan-V3-lingyue-2011,155,362,south america,21412
+feiyate,169,412,south america,44666
+fengtian-liangxiang,189,428,south america,34297
+fengtian-MPV,176,360,south america,12743
+fengtian-puladuo-06,189,412,south america,38604
+fengtian-SUV-gai,223,375,south america,16835
+fengtian-weichi-2006,183,409,south america,28180
+fute,188,450,south america,39058
+guangqi-chuanqi-GS4-2015,191,454,south america,28462
+haima-3,206,437,south america,38631
+jianghuai-ruifeng-S3,235,373,south america,39302
+jili-boyue,173,418,south america,13832
+jilixiongmao-2015,217,377,south america,6643
+jipu-3,200,447,south america,34344
+kaidilake-CTS,153,433,south america,43847
+leikesasi,227,411,south america,10163
+lingmu-aotuo-2009,159,401,south america,49814
+lingmu-swift,209,368,south america,5168
+lingmu-SX4-2012,205,476,south america,44536
+linken-SUV,201,449,south america,5676
+lufeng-X8,198,353,south america,28251
+mazida-6-2015,183,381,south america,13864
+MG-GT-2015,222,379,south america,13229
+oubao,242,444,south america,42171
+qirui-ruihu,238,356,south america,42850
+qiya,229,465,south america,7632
+rongwei-750,176,413,south america,11988
+rongwei-RX5,150,450,south america,44926
+sanling-oulande,175,444,south america,6974
+sikeda-jingrui,186,409,south america,27047
+sikeda-SUV,152,456,south america,23365
+Skoda_Fabia-2011,178,473,south america,27824
+supai-2016,194,445,south america,49696
+xiandai-i25-2016,180,354,south america,25527
+xiandai-suonata,164,391,south america,13701
+yingfeinidi-qx80,209,377,south america,40658
+yingfeinidi-SUV,203,467,south america,22058
+yiqi-benteng-b50,228,425,south america,27444
+019-SUV,203,429,asia,160389
+036-CAR01,190,442,asia,85440
+037-CAR02,249,433,asia,192375
+aodi-a6,190,405,asia,59585
+aodi-Q7-SUV,175,383,asia,70864
+baojun-310-2017,184,412,asia,20590
+baojun-510,235,407,asia,120085
+baoma-330,240,466,asia,132339
+baoma-530,240,380,asia,98051
+baoma-X5,235,452,asia,117154
+baoshijie-kayan,195,351,asia,145696
+baoshijie-paoche,161,475,asia,38647
+beiqi-huansu-H3,217,459,asia,68038
+benchi-GLK-300,170,400,asia,110073
+benchi-ML500,227,400,asia,136507
+benchi-SUR,244,384,asia,11062
+bentian-fengfan,153,361,asia,162764
+biaozhi-3008,167,480,asia,105697
+biaozhi-408,220,365,asia,117009
+biaozhi-508,221,426,asia,187887
+biaozhi-liangxiang,221,438,asia,162365
+bieke-kaiyue,151,485,asia,11855
+bieke-yinglang-XT,200,419,asia,159707
+bieke,219,413,asia,103597
+biyadi-2x-F0,233,418,asia,87564
+biyadi-F3,209,407,asia,121817
+biyadi-qin,182,363,asia,90438
+biyadi-tang,218,461,asia,195563
+changan-CS35-2012,202,440,asia,77264
+changan-cs5,235,369,asia,89590
+changanbenben,198,383,asia,145491
+changcheng-H6-2016,180,474,asia,105290
+dazhong-SUV,215,395,asia,23330
+dazhong,171,383,asia,14613
+dazhongmaiteng,213,416,asia,187410
+dihao-EV,189,441,asia,166477
+dongfeng-DS5,237,443,asia,94504
+dongfeng-fengguang-S560,221,443,asia,25349
+dongfeng-fengxing-SX6,209,447,asia,188449
+dongfeng-xuetielong-C6,180,366,asia,77091
+dongfeng-yulong-naruijie,234,364,asia,151788
+dongnan-V3-lingyue-2011,155,362,asia,191323
+feiyate,169,412,asia,183863
+fengtian-liangxiang,189,428,asia,53782
+fengtian-MPV,176,360,asia,65043
+fengtian-puladuo-06,189,412,asia,30366
+fengtian-SUV-gai,223,375,asia,118255
+fengtian-weichi-2006,183,409,asia,25405
+fute,188,450,asia,169534
+guangqi-chuanqi-GS4-2015,191,454,asia,196993
+haima-3,206,437,asia,55390
+jianghuai-ruifeng-S3,235,373,asia,109034
+jili-boyue,173,418,asia,102735
+jilixiongmao-2015,217,377,asia,59830
+jipu-3,200,447,asia,47556
+kaidilake-CTS,153,433,asia,78935
+leikesasi,227,411,asia,42878
+lingmu-aotuo-2009,159,401,asia,28103
+lingmu-swift,209,368,asia,59800
+lingmu-SX4-2012,205,476,asia,151291
+linken-SUV,201,449,asia,118032
+lufeng-X8,198,353,asia,141501
+mazida-6-2015,183,381,asia,180917
+MG-GT-2015,222,379,asia,179489
+oubao,242,444,asia,113783
+qirui-ruihu,238,356,asia,7638
+qiya,229,465,asia,79487
+rongwei-750,176,413,asia,190533
+rongwei-RX5,150,450,asia,8136
+sanling-oulande,175,444,asia,72946
+sikeda-jingrui,186,409,asia,42443
+sikeda-SUV,152,456,asia,84906
+Skoda_Fabia-2011,178,473,asia,86886
+supai-2016,194,445,asia,115213
+xiandai-i25-2016,180,354,asia,123980
+xiandai-suonata,164,391,asia,9724
+yingfeinidi-qx80,209,377,asia,159068
+yingfeinidi-SUV,203,467,asia,106165
+yiqi-benteng-b50,228,425,asia,145585
+019-SUV,203,429,australia,563
+036-CAR01,190,442,australia,985
+037-CAR02,249,433,australia,896
+aodi-a6,190,405,australia,902
+aodi-Q7-SUV,175,383,australia,719
+baojun-310-2017,184,412,australia,659
+baojun-510,235,407,australia,664
+baoma-330,240,466,australia,643
+baoma-530,240,380,australia,643
+baoma-X5,235,452,australia,868
+baoshijie-kayan,195,351,australia,555
+baoshijie-paoche,161,475,australia,977
+beiqi-huansu-H3,217,459,australia,757
+benchi-GLK-300,170,400,australia,639
+benchi-ML500,227,400,australia,528
+benchi-SUR,244,384,australia,633
+bentian-fengfan,153,361,australia,502
+biaozhi-3008,167,480,australia,873
+biaozhi-408,220,365,australia,711
+biaozhi-508,221,426,australia,680
+biaozhi-liangxiang,221,438,australia,741
+bieke-kaiyue,151,485,australia,822
+bieke-yinglang-XT,200,419,australia,973
+bieke,219,413,australia,993
+biyadi-2x-F0,233,418,australia,763
+biyadi-F3,209,407,australia,802
+biyadi-qin,182,363,australia,882
+biyadi-tang,218,461,australia,572
+changan-CS35-2012,202,440,australia,996
+changan-cs5,235,369,australia,891
+changanbenben,198,383,australia,770
+changcheng-H6-2016,180,474,australia,947
+dazhong-SUV,215,395,australia,690
+dazhong,171,383,australia,679
+dazhongmaiteng,213,416,australia,797
+dihao-EV,189,441,australia,546
+dongfeng-DS5,237,443,australia,518
+dongfeng-fengguang-S560,221,443,australia,898
+dongfeng-fengxing-SX6,209,447,australia,961
+dongfeng-xuetielong-C6,180,366,australia,632
+dongfeng-yulong-naruijie,234,364,australia,702
+dongnan-V3-lingyue-2011,155,362,australia,567
+feiyate,169,412,australia,913
+fengtian-liangxiang,189,428,australia,728
+fengtian-MPV,176,360,australia,667
+fengtian-puladuo-06,189,412,australia,958
+fengtian-SUV-gai,223,375,australia,677
+fengtian-weichi-2006,183,409,australia,515
+fute,188,450,australia,944
+guangqi-chuanqi-GS4-2015,191,454,australia,734
+haima-3,206,437,australia,622
+jianghuai-ruifeng-S3,235,373,australia,627
+jili-boyue,173,418,australia,605
+jilixiongmao-2015,217,377,australia,654
+jipu-3,200,447,australia,538
+kaidilake-CTS,153,433,australia,877
+leikesasi,227,411,australia,623
+lingmu-aotuo-2009,159,401,australia,968
+lingmu-swift,209,368,australia,879
+lingmu-SX4-2012,205,476,australia,618
+linken-SUV,201,449,australia,681
+lufeng-X8,198,353,australia,906
+mazida-6-2015,183,381,australia,851
+MG-GT-2015,222,379,australia,653
+oubao,242,444,australia,574
+qirui-ruihu,238,356,australia,722
+qiya,229,465,australia,676
+rongwei-750,176,413,australia,576
+rongwei-RX5,150,450,australia,741
+sanling-oulande,175,444,australia,596
+sikeda-jingrui,186,409,australia,689
+sikeda-SUV,152,456,australia,728
+Skoda_Fabia-2011,178,473,australia,682
+supai-2016,194,445,australia,505
+xiandai-i25-2016,180,354,australia,599
+xiandai-suonata,164,391,australia,604
+yingfeinidi-qx80,209,377,australia,663
+yingfeinidi-SUV,203,467,australia,998
+yiqi-benteng-b50,228,425,australia,530
