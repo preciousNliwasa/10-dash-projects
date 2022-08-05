@@ -241,7 +241,7 @@ def employee_dataset_(lat_min,lat_max,lng_min,lng_max,n_employees,clusters,emp_l
     map_data3 = folium.Map(location = [employees_loc.loc[1].Lat,employees_loc.loc[1].Lng],zoom_start = 14,control_scale = True)
     
     
-    client = openrouteservice.Client(key='5b3ce3597851110001cf62488ea58e833b5246628971ea6109e91c24')
+    client = openrouteservice.Client(key='put your key')
     
     coords = [[emp_lng,emp_lat]]
     
