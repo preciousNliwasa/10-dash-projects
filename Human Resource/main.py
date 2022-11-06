@@ -372,7 +372,7 @@ def modelScorepred(n_clicks,n_clicks2,neighbors,sl,le,np,avg,time,acci,left,prom
     return str(score),str(prediction)
     
 #@app.callback(Output('salaryType','children'),[Input('but4','n_clicks')],[State('neighbors','value'),State('satisfaction_level','value'),State('last_evaluation','value'),State('number_project','value'),State('average_montly_hours','value'),State('time_spend_company','value'),State('Work_accident','value'),State('left','value'),State('promotion_last_5years','value'),State('mldrop','value')])
-#def salaryTY(n_clicks,neighbor,sl,le,np,avg,time,acci,left,promo,drop):
+#def salaryTY(n_clicks,neighbor,sl,le,np,avg,ti me,acci,left,promo,drop):
     
 #    model = KNeighborsClassifier(n_neighbors = int(neighbor),metric = 'euclidean')
     
